@@ -8,7 +8,6 @@ const {
   actualizarDestinatario,
   getDestinatarioName,
 } = require("../controllers/destinatario.controller");
-const { validarJWT } = require("../middleware/validar-jwt");
 
 const router = Router();
 
