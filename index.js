@@ -31,9 +31,10 @@ app.use("/api/destinatarios", require("./routes/destinatario.routes"));
 //   console.log("servidor corriendo en el puerto:  ", process.env.PORT || 3000);
 // });
 
-app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "public/index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.resolve(__dirname, "public/index.html"));
+// });
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`servidor corriendo en el puerto:  ${PORT}`);
