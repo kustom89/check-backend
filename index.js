@@ -21,6 +21,8 @@ app.use(express.json());
 // BASE DE DATOS MONGO
 dbConnection();
 
+app.use(express.static("public"));
+
 app.use(router);
 
 // RUTAS

@@ -33,7 +33,7 @@ class ErrorPageComponent {
     ngOnInit() { }
 }
 ErrorPageComponent.ɵfac = function ErrorPageComponent_Factory(t) { return new (t || ErrorPageComponent)(); };
-ErrorPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ErrorPageComponent, selectors: [["app-error-page"]], decls: 3, vars: 0, consts: [["cols", "1", "rowHeight", "2:2"], ["src", "https://play-lh.googleusercontent.com/8KIJ0QBZ-H74bw17oJAyED1ty9_cv0KmilTUEJovaN77pW0yAmTx78ycWTlIOUxGCBI=s180-rw", "routerLink", "/dashboard/listado", 2, "width", "180px", "height", "180px"]], template: function ErrorPageComponent_Template(rf, ctx) { if (rf & 1) {
+ErrorPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ErrorPageComponent, selectors: [["app-error-page"]], decls: 3, vars: 0, consts: [["cols", "1", "rowHeight", "2:2"], ["src", "../../../../assets/img/check-RP.png", "routerLink", "/dashboard/listado", 2, "width", "180px", "height", "180px"]], template: function ErrorPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-grid-list", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-grid-tile");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 1);
