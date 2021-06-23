@@ -28,6 +28,7 @@ app.use(router);
 // RUTAS
 
 app.use("/api/destinatarios", require("./routes/destinatario.routes"));
+app.use("/api/transferencia", require("./routes/transferencia.routes"));
 
 // app.listen(3000, () => {
 //   console.log("servidor corriendo en el puerto:  ", process.env.PORT || 3000);
