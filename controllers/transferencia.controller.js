@@ -18,6 +18,7 @@ const postTransferencia = async (req, res = response) => {
     await transferencia.save();
 
     res.json({
+      ok: true,
       transferencia,
     });
   } catch (error) {
