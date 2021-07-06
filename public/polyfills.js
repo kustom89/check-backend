@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\andre\Desktop\despliegue RP\ripley-check\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\andre\Desktop\mio\ripley-check\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
